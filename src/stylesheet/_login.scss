@@ -1,0 +1,66 @@
+
+.lightblue-bg {
+    background-color: #E9EEF5;
+}
+h1.login {
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 56px;
+    color: $celeste;
+    font-style: italic;
+}
+.yellow-vector-login {
+    margin-top: -50px;
+    margin-left: 38px;
+    margin-bottom: -93px;
+}
+.font-mini, .font-mini span {
+    font-size: 26px !important;
+    line-height: 32px !important;
+}
+
+.lb-login {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+}
+.input {
+    font-family: $secd-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 100%;
+    border: 0px;
+    padding: 8px 25px;
+}
+
+.btn-login {
+    border-radius: 30px;
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: $blanco;
+    padding: 12px 40px;
+    background-color: $celeste;
+    border: 0px;
+}
+.login-people {
+/*     background-image: url('../assets/family.png'); */
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    min-height: 568px;
+}
+.people-fake {
+    background-image: url('../assets/family.png');
+    background-repeat: no-repeat;
+    background-position: -100px bottom;
+    min-height: 568px;
+}
+

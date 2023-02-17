@@ -1,0 +1,17 @@
+# The humans responsible & technology colophon
+# TEAM
+
+   Javier Aguero -- Frontend Developer -- @javieraguerocl
+
+# THANKS
+
+    Javier Aguero
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, jQuery, Modernizr, Normalize.css, Bootstrap
+    
+/* SITE */
+Created : 2023/16/02
+Last update: 2023/16/02
+Software: Visual Studio Code

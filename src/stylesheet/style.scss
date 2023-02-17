@@ -1,0 +1,88 @@
+@import './utility';
+
+$amarillo:      #F1A557;
+$azul:          #1D4876;
+$celeste:       #90A8CD;
+$rojo:          #C30C26;
+$gris_oscuro:   #7A7A79;
+$gris_claro:    #9B9B9B;
+$negro:         #000000;
+$blanco:        #FFFFFF;
+$main-font:     'Source Sans Pro', sans-serif;
+$secd-font:     'Montserrat', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &::after,
+    &::before {
+        box-sizing: inherit;
+    }
+}
+
+
+.overlay {
+    background-image: url('../assets/login.jpg');
+    background-size: 1462px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 1462px;
+    height: 5000px;
+    left: 540px;
+    opacity: 0.1;
+    position: absolute;
+}
+
+
+body {
+    font-size: 1rem;
+    overflow-x: hidden; 
+}
+
+.logo {
+    margin-top: 29px;
+}
+
+.login-icon {
+    margin: 3px 7px;
+}
+
+.login_link {
+    color: $gris_oscuro;
+    font-family: $secd-font;
+    font-size: 25.18px;
+    font-weight: 600;
+    margin-right: 6px;
+}
+.menu-icon {
+    margin-left: 14px;
+    margin-top: 17px;
+}
+
+
+footer {
+    background-color: #C30C26;
+    min-height: 396px;
+}
+.follow-us {
+    font-family: $main-font;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: $blanco
+}
+
+.social-icon {
+    position: relative;
+    margin-left: -7px;
+    img {
+        width: 53px;
+    }
+}
+
+@import './home';
+@import './login';
+@import './plugins';
